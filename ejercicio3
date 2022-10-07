@@ -1,0 +1,43 @@
+public class main {
+    public static void main (sstring [] args) {
+        Persona persona = newpersona ();
+        persona.setEdad("26");
+        persona.setNombre("belen");
+        persona.setTelefono("3489657890");
+        
+        system.out.println(persona.getEdad());
+        system.out.println(persona.getNombre());
+        system.out.println(persona.getTelefono());
+      
+      }
+    }
+    
+    class persona {
+      private string edad;
+      private string nombre;
+      private string telefono;
+      
+      public void setEdad (string edad) {
+          this.edad = edad;
+       }
+       
+       public void setNombre (string nombre) {
+          this.nombre = nombre;
+       }
+        
+        public void setTelefono (string telefono) {
+           this.telefono = telefono
+       }
+       
+       public string getEdad () {
+            return this.edad;
+       }
+       
+       public string getNombre () {
+             return this.nombre;
+       }
+       
+       public string getTelefono () {
+              return this.telefono;
+       }
+    }
